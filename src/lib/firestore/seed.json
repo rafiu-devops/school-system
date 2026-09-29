@@ -1,0 +1,90 @@
+{
+  "admins": [
+    {
+      "id": 1,
+      "name": "Nadia Ahmed",
+      "email": "nadia.ahmed@buraq.edu.pk",
+      "phone": "+92 300 111 0001",
+      "title": "Principal · School office",
+      "authUid": null
+    }
+  ],
+  "teachers": [
+    { "id": 1, "name": "Ayesha Khan", "email": "ayesha.khan@buraq.edu.pk", "subject": "Mathematics", "phone": "+92 300 123 4567", "authUid": null, "permissions": ["dashboard", "students", "classes", "attendance", "exams", "reports", "announcements"] },
+    { "id": 2, "name": "Bilal Ahmed", "email": "bilal.ahmed@buraq.edu.pk", "subject": "General Science", "phone": "+92 301 234 5678", "authUid": null, "permissions": ["dashboard", "students", "classes", "attendance", "exams", "reports", "announcements"] },
+    { "id": 3, "name": "Sara Malik", "email": "sara.malik@buraq.edu.pk", "subject": "English", "phone": "+92 302 345 6789", "authUid": null, "permissions": ["dashboard", "students", "classes", "attendance", "exams", "reports", "announcements"] },
+    { "id": 4, "name": "Hina Tariq", "email": "hina.tariq@buraq.edu.pk", "subject": "Urdu", "phone": "+92 303 456 7890", "authUid": null, "permissions": ["dashboard", "students", "classes", "attendance", "exams", "reports", "announcements"] }
+  ],
+  "classes": [
+    { "id": 1, "grade": "Class 8", "section": "A", "teacherId": 1 },
+    { "id": 2, "grade": "Class 8", "section": "B", "teacherId": 2 },
+    { "id": 3, "grade": "Class 7", "section": "A", "teacherId": 3 }
+  ],
+  "students": [
+    { "id": 1, "admissionNo": "BPS-24001", "firstName": "Ahmed", "lastName": "Raza", "gender": "Boy", "guardianName": "Amna Raza", "guardianPhone": "+92 300 556 1201", "classId": 1, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "ahmed.raza@student.buraq.edu.pk", "authUid": null },
+    { "id": 2, "admissionNo": "BPS-24002", "firstName": "Fatima", "lastName": "Noor", "gender": "Girl", "guardianName": "Nadeem Noor", "guardianPhone": "+92 301 556 1202", "classId": 1, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "fatima.noor@student.buraq.edu.pk", "authUid": null },
+    { "id": 3, "admissionNo": "BPS-24003", "firstName": "Zain", "lastName": "Ali", "gender": "Boy", "guardianName": "Sadia Ali", "guardianPhone": "+92 302 556 1203", "classId": 1, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "zain.ali@student.buraq.edu.pk", "authUid": null },
+    { "id": 4, "admissionNo": "BPS-24004", "firstName": "Ayesha", "lastName": "Siddiqui", "gender": "Girl", "guardianName": "Hassan Siddiqui", "guardianPhone": "+92 303 556 1204", "classId": 1, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "ayesha.siddiqui@student.buraq.edu.pk", "authUid": null },
+    { "id": 5, "admissionNo": "BPS-24005", "firstName": "Hassan", "lastName": "Malik", "gender": "Boy", "guardianName": "Farah Malik", "guardianPhone": "+92 304 556 1205", "classId": 1, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "hassan.malik@student.buraq.edu.pk", "authUid": null },
+    { "id": 6, "admissionNo": "BPS-24006", "firstName": "Maryam", "lastName": "Khan", "gender": "Girl", "guardianName": "Arif Khan", "guardianPhone": "+92 305 556 1206", "classId": 1, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "maryam.khan@student.buraq.edu.pk", "authUid": null },
+    { "id": 7, "admissionNo": "BPS-24007", "firstName": "Ibrahim", "lastName": "Shah", "gender": "Boy", "guardianName": "Mehwish Shah", "guardianPhone": "+92 306 556 1207", "classId": 1, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "ibrahim.shah@student.buraq.edu.pk", "authUid": null },
+    { "id": 8, "admissionNo": "BPS-24008", "firstName": "Hamza", "lastName": "Qureshi", "gender": "Boy", "guardianName": "Usman Qureshi", "guardianPhone": "+92 307 556 1208", "classId": 2, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "hamza.qureshi@student.buraq.edu.pk", "authUid": null },
+    { "id": 9, "admissionNo": "BPS-24009", "firstName": "Noor", "lastName": "Fatima", "gender": "Girl", "guardianName": "Imran Fatima", "guardianPhone": "+92 308 556 1209", "classId": 2, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "noor.fatima@student.buraq.edu.pk", "authUid": null },
+    { "id": 10, "admissionNo": "BPS-24010", "firstName": "Ali", "lastName": "Hassan", "gender": "Boy", "guardianName": "Saira Hassan", "guardianPhone": "+92 309 556 1210", "classId": 2, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "ali.hassan@student.buraq.edu.pk", "authUid": null },
+    { "id": 11, "admissionNo": "BPS-24011", "firstName": "Hania", "lastName": "Tariq", "gender": "Girl", "guardianName": "Noman Tariq", "guardianPhone": "+92 300 556 1211", "classId": 2, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "hania.tariq@student.buraq.edu.pk", "authUid": null },
+    { "id": 12, "admissionNo": "BPS-24012", "firstName": "Usman", "lastName": "Javed", "gender": "Boy", "guardianName": "Lubna Javed", "guardianPhone": "+92 301 556 1212", "classId": 2, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "usman.javed@student.buraq.edu.pk", "authUid": null },
+    { "id": 13, "admissionNo": "BPS-24013", "firstName": "Laiba", "lastName": "Aslam", "gender": "Girl", "guardianName": "Aslam Asif", "guardianPhone": "+92 302 556 1213", "classId": 2, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "laiba.aslam@student.buraq.edu.pk", "authUid": null },
+    { "id": 14, "admissionNo": "BPS-24014", "firstName": "Taha", "lastName": "Butt", "gender": "Boy", "guardianName": "Sana Butt", "guardianPhone": "+92 303 556 1214", "classId": 2, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "taha.butt@student.buraq.edu.pk", "authUid": null },
+    { "id": 15, "admissionNo": "BPS-24015", "firstName": "Saad", "lastName": "Iqbal", "gender": "Boy", "guardianName": "Rashid Iqbal", "guardianPhone": "+92 304 556 1215", "classId": 3, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "saad.iqbal@student.buraq.edu.pk", "authUid": null },
+    { "id": 16, "admissionNo": "BPS-24016", "firstName": "Esha", "lastName": "Waqar", "gender": "Girl", "guardianName": "Naila Waqar", "guardianPhone": "+92 305 556 1216", "classId": 3, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "esha.waqar@student.buraq.edu.pk", "authUid": null },
+    { "id": 17, "admissionNo": "BPS-24017", "firstName": "Bilal", "lastName": "Akram", "gender": "Boy", "guardianName": "Kiran Akram", "guardianPhone": "+92 306 556 1217", "classId": 3, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "bilal.akram@student.buraq.edu.pk", "authUid": null },
+    { "id": 18, "admissionNo": "BPS-24018", "firstName": "Dua", "lastName": "Shah", "gender": "Girl", "guardianName": "Shabbir Shah", "guardianPhone": "+92 307 556 1218", "classId": 3, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "dua.shah@student.buraq.edu.pk", "authUid": null },
+    { "id": 19, "admissionNo": "BPS-24019", "firstName": "Rayan", "lastName": "Ahmed", "gender": "Boy", "guardianName": "Tania Ahmed", "guardianPhone": "+92 308 556 1219", "classId": 3, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "rayan.ahmed@student.buraq.edu.pk", "authUid": null },
+    { "id": 20, "admissionNo": "BPS-24020", "firstName": "Mahnoor", "lastName": "Aziz", "gender": "Girl", "guardianName": "Faisal Aziz", "guardianPhone": "+92 309 556 1220", "classId": 3, "admissionDateOffset": -45, "birthDate": null, "status": "Active", "email": "mahnoor.aziz@student.buraq.edu.pk", "authUid": null }
+  ],
+  "exams": [
+    { "id": 5, "title": "Mid-term assessment", "subject": "Mathematics", "classId": 1, "examDateOffset": -8, "maxMarks": 100, "term": "Term 1" },
+    { "id": 6, "title": "Mid-term assessment", "subject": "English", "classId": 1, "examDateOffset": -7, "maxMarks": 100, "term": "Term 1" },
+    { "id": 7, "title": "Mid-term assessment", "subject": "General Science", "classId": 1, "examDateOffset": -6, "maxMarks": 100, "term": "Term 1" },
+    { "id": 8, "title": "Weekly assessment", "subject": "Mathematics", "classId": 1, "examDateOffset": 5, "maxMarks": 50, "term": "Term 1" },
+    { "id": 9, "title": "Weekly assessment", "subject": "General Science", "classId": 2, "examDateOffset": 5, "maxMarks": 50, "term": "Term 1" }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "title": "Welcome back, Buraq families!",
+      "body": "Term 1 is underway. Please check the updated timetable and help students arrive by 7:45 am each morning.",
+      "audience": "Everyone",
+      "classId": null,
+      "authorName": "School office",
+      "createdAtOffsetHours": -2
+    },
+    {
+      "id": 2,
+      "title": "Mid-term results are ready",
+      "body": "Class 8 mid-term marks have been recorded. Report cards are available in the student portal.",
+      "audience": "Everyone",
+      "classId": null,
+      "authorName": "School office",
+      "createdAtOffsetHours": -26
+    },
+    {
+      "id": 3,
+      "title": "Science lab day — Friday",
+      "body": "Class 8-B students should bring their lab notebooks for the practical session this Friday.",
+      "audience": "Class 8 – B",
+      "classId": 2,
+      "authorName": "Bilal Ahmed",
+      "createdAtOffsetHours": -50
+    },
+    {
+      "id": 4,
+      "title": "Library books due next week",
+      "body": "A friendly reminder to return borrowed books to the library desk by Thursday.",
+      "audience": "Class 8 – A",
+      "classId": 1,
+      "authorName": "Ayesha Khan",
+      "createdAtOffsetHours": -74
+    }
+  ]
+}

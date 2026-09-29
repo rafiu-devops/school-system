@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+build/
+next-env.d.ts
+
+# Environment files (contains NEXT_PUBLIC_* config and SESSION_SECRET)
+.env
+.env.local
+.env.*.local
+
+# Firebase service account credentials - NEVER COMMIT THESE
+service-accounts.json
+service_accounts.json
+serviceAccount.json
+*service-account*.json
+*service_account*.json
+firebase-adminsdk-*.json
+*-firebase-adminsdk-*.json
+google-services.json
+GoogleService-Info.plist
+
+# Other private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+keystore.properties
+store.properties
+
+# TypeScript
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+
+# Firebase local config (firebase.json and .firebaserc ARE committed - they describe
+# the project and which rules to deploy)
+firebase-debug.log
+firestore-debug.log
+.ui-debug.log
+.firebase/
+firestore.local
+firebase-export-metadata.json
+
+# Vercel / deployment
+.vercel
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
